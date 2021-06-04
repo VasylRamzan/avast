@@ -36,7 +36,7 @@
 }
 
 .title a {
-  color: #0070f3;
+  color: #EF7F31;
   text-decoration: none;
 }
 
@@ -95,8 +95,8 @@
 .card:hover,
 .card:focus,
 .card:active {
-  color: #0070f3;
-  border-color: #0070f3;
+  color: #EF7F31;
+  border-color: #EF7F31;
 }
 
 .card h3 {
@@ -119,4 +119,15 @@
     width: 100%;
     flex-direction: column;
   }
+}
+
+.text {
+  max-width: 800px;
+  font-size: 22px;
+  padding-top: 65px;
+}
+
+.text_bold {
+  font-weight: 700;
+  font-size: 30px;
 }
